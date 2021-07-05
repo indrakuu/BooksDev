@@ -474,12 +474,11 @@ span {
   text-align: center;
   color: black;
   padding: 50px 0;
-  overflow: hidden;
 }
 
 .categories h1,
 .categories p {
-  margin: 20 200px;
+  margin: 20 150px;
 }
 
 .categories-2 {
@@ -1890,6 +1889,10 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  .categories h1,
+  .categories p {
+    margin: 20 10px;
+}
   .testi-2 .kotak {
     width: 90%;
     height: auto;
